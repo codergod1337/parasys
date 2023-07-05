@@ -4,3 +4,5 @@ labor: Es soll im Frontend eine Wunschliste aus der Postgres Datenbank angezeigt
 in docker-fun wird docker compose gebaut
 als webserver wird nginx verwendet, dort werden die build dateien eines react projektes eingemapped
 die frontendprojektdateien liegen nicht auf git
+
+um docker compose zu updaten muss nach dem build export von react der build ordner in docker-fun / nginx_data kopiert werden
